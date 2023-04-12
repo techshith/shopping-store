@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const jwt = require('jsonwebtoken')
+require('dotenv').config();
+const jwtSecret = process.env.JWT_SECRET;
 const config = require('../configs/jwt-config')
 const ensureAuthenticated = require('../modules/ensureAuthenticated')
 const User = require('../models/User');
@@ -72,7 +74,7 @@ router.post('/login', function (req, res, next) {
       if (isMatch) {
         let token = jwt.sign(
           { email: email },
-          config.secret,
+          jwtSecret,
           { expiresIn: '7d' }
         )
         res.status(201).json({
