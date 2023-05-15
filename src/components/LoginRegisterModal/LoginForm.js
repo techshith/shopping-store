@@ -1,7 +1,5 @@
 /*
- ** Author: Santosh Kumar Dash
- ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Author: Veekshith
  */
 
 import React, { Component } from "react";
@@ -92,7 +90,7 @@ class LoginForm extends Component {
             href="#"
             onClick={this.props.forgotPasswordClicked}
           >
-            Lost your password?
+            Forgot your password?
           </a>
           <LoadingButton
             type="button"
@@ -111,7 +109,7 @@ class LoginForm extends Component {
               cursor: "pointer"
             }}
           >
-            New user ? Please Register
+            New user? Please Register
           </div>
         </div>
       </div>

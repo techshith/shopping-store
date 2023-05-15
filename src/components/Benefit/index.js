@@ -1,9 +1,3 @@
-/*
- ** Author: Santosh Kumar Dash
- ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
- */
-
 import React from "react";
 
 function Benefit(params) {
@@ -17,8 +11,8 @@ function Benefit(params) {
                 <i className="fa fa-truck" aria-hidden="true"></i>
               </div>
               <div className="benefit_content">
-                <h6>free shipping</h6>
-                <p>Suffered Alteration in Some Form</p>
+                <h6>Free Shipping</h6>
+                <p>On orders above $40</p>
               </div>
             </div>
           </div>
@@ -28,8 +22,8 @@ function Benefit(params) {
                 <i className="far fa-money-bill-alt"></i>
               </div>
               <div className="benefit_content">
-                <h6>cach on delivery</h6>
-                <p>The Internet Tend To Repeat</p>
+                <h6>Cash On Delivery</h6>
+                <p>On any purchase</p>
               </div>
             </div>
           </div>
@@ -39,8 +33,8 @@ function Benefit(params) {
                 <i className="fa fa-undo" aria-hidden="true"></i>
               </div>
               <div className="benefit_content">
-                <h6>45 days return</h6>
-                <p>Making it Look Like Readable</p>
+                <h6>45 Days Return</h6>
+                <p>Making it more convenient</p>
               </div>
             </div>
           </div>
@@ -50,8 +44,8 @@ function Benefit(params) {
                 <i className="far fa-clock"></i>
               </div>
               <div className="benefit_content">
-                <h6>opening all week</h6>
-                <p>8AM - 09PM</p>
+                <h6>Open all week</h6>
+                <p>24/7</p>
               </div>
             </div>
           </div>

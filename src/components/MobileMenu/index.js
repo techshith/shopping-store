@@ -1,7 +1,5 @@
 /*
- ** Author: Santosh Kumar Dash
- ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Author: Veekshith
  */
 
 import React, { Component } from "react";
@@ -31,16 +29,16 @@ class MobileMenu extends Component {
               </a>
               <ul className="menu_selection">
                 <li>
-                  <a href="#">cad</a>
+                  <a href="#">CAD</a>
                 </li>
                 <li>
-                  <a href="#">aud</a>
+                  <a href="#">AUD</a>
                 </li>
                 <li>
-                  <a href="#">eur</a>
+                  <a href="#">EUR</a>
                 </li>
                 <li>
-                  <a href="#">gbp</a>
+                  <a href="#">GBP</a>
                 </li>
               </ul>
             </li>
@@ -84,22 +82,22 @@ class MobileMenu extends Component {
               </ul>
             </li>
             <li className="menu_item">
-              <a href="#">home</a>
+              <a href="#">Home</a>
             </li>
             <li className="menu_item">
-              <a href="#">shop</a>
+              <a href="#">Shop</a>
             </li>
             <li className="menu_item">
-              <a href="#">promotion</a>
+              <a href="#">Promotion</a>
             </li>
             <li className="menu_item">
-              <a href="#">pages</a>
+              <a href="#">Pages</a>
             </li>
             <li className="menu_item">
-              <a href="#">blog</a>
+              <a href="#">Blog</a>
             </li>
             <li className="menu_item">
-              <a href="#">contact</a>
+              <a href="#">Contact</a>
             </li>
           </ul>
         </div>

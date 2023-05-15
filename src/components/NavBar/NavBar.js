@@ -1,9 +1,3 @@
-/*
- ** Author: Santosh Kumar Dash
- ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
- */
-
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import HomeCartView from "../HomeCartView";
@@ -42,18 +36,18 @@ class NavBar extends Component {
           <div className="row">
             <div className="col-lg-12 text-right">
               <div className="logo_container">
-                <Link to="/fashion-cube">
-                  Fashion<span>Cube</span>
+                <Link to="/shoppers-hub">
+                  Shoppers<span>Hub</span>
                 </Link>
               </div>
               <nav className="navbar">
                 <ul className="navbar_menu">
                   <li>
-                    <Link to="/home">home</Link>
+                    <Link to="/home">Home</Link>
                   </li>
                   <li className="mega-drop-down">
                     <a href="#">
-                      shop <i className="fa fa-angle-down"></i>
+                      Shop <i className="fa fa-angle-down"></i>
                     </a>
 
                     <div className="mega-menu">
@@ -84,7 +78,7 @@ class NavBar extends Component {
                   </li>
 
                   <li>
-                    <a href="contact.html">contact</a>
+                    <a href="contact.html">Contact</a>
                   </li>
                 </ul>
                 <ul className="navbar_user">

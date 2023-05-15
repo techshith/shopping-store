@@ -1,9 +1,3 @@
-/*
- ** Author: Santosh Kumar Dash
- ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
- */
-
 import React, { Component } from "react";
 import { Modal, Button } from "react-bootstrap";
 import "./style.css";
@@ -29,7 +23,7 @@ class HomeCartView extends Component {
           <Modal.Title>Your Cart</Modal.Title>
           {items !== undefined && items !== null ? (
             <span className="checkout--btn" onClick={() => this.goToChechout()}>
-              checkout{" "}
+              Checkout{" "}
             </span>
           ) : null}
         </Modal.Header>
@@ -41,7 +35,7 @@ class HomeCartView extends Component {
               {items !== undefined && items !== null ? null : (
                 <div className="empty--basket">
                   <img src={EmptyCart} className="img-fluid" />
-                  <h4 style={{ textAlign: "center" }}>Empty cart</h4>
+                  <h4 style={{ textAlign: "center" }}>Empty Cart</h4>
                 </div>
               )}
             </div>

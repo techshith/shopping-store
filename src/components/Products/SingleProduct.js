@@ -1,7 +1,5 @@
 /*
- ** Author: Santosh Kumar Dash
- ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Author: Veekshith
  */
 
 import React from "react";
@@ -40,7 +38,7 @@ function SingleProduct(props) {
         className="red_button add_to_cart_button"
         onClick={() => props.addToBag(productItem._id)}
       >
-        <div style={{ color: "#ffffff" }}>add to cart</div>
+        <div style={{ color: "#ffffff" }}>Add to Cart</div>
       </div>
     </div>
   );

@@ -1,7 +1,5 @@
 /*
- ** Author: Santosh Kumar Dash
- ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Author: Veekshith
  */
 
 import React, { Component } from "react";
@@ -51,7 +49,7 @@ class NewArrivals extends Component {
                         : null
                     }`}
                   >
-                    all
+                    All
                   </li>
                   <li
                     className={`grid_sorting_button button d-flex flex-column justify-content-center align-items-center ${
@@ -61,7 +59,7 @@ class NewArrivals extends Component {
                     }`}
                     onClick={() => this.optionClicked("Women")}
                   >
-                    women's
+                    Women
                   </li>
 
                   <li
@@ -72,7 +70,7 @@ class NewArrivals extends Component {
                     }`}
                     onClick={() => this.optionClicked("Men")}
                   >
-                    men's
+                    Men
                   </li>
                 </ul>
               </div>

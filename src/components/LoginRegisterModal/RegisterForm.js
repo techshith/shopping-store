@@ -1,7 +1,5 @@
 /*
- ** Author: Santosh Kumar Dash
- ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Author: Veekshith
  */
 
 import React, { Component } from "react";
@@ -119,7 +117,7 @@ class RegisterForm extends Component {
               cursor: "pointer"
             }}
           >
-            Already have an account ? Please login.
+            Already have an account? Please login.
           </div>
         </div>
       </div>

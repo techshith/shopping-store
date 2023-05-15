@@ -1,7 +1,5 @@
 /*
- ** Author: Santosh Kumar Dash
- ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Author: Veekshith
  */
 
 import React, { Component } from "react";
@@ -128,7 +126,7 @@ class Advertisement extends Component {
                   </li>
                 </ul>
                 <div className="red_button deal_ofthe_week_button">
-                  <a href="#">shop now</a>
+                  <a href="#">Shop Now</a>
                 </div>
               </div>
             </div>

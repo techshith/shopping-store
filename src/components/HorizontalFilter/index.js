@@ -1,9 +1,3 @@
-/*
- ** Author: Santosh Kumar Dash
- ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
- */
-
 import React from "react";
 
 function HorizontalFilter(Props) {
@@ -16,25 +10,25 @@ function HorizontalFilter(Props) {
               className="grid_sorting_button button d-flex flex-column justify-content-center align-items-center active is-checked"
               data-filter="*"
             >
-              all
+              All
             </li>
             <li
               className="grid_sorting_button button d-flex flex-column justify-content-center align-items-center"
               data-filter=".women"
             >
-              women's
+              Women
             </li>
             <li
               className="grid_sorting_button button d-flex flex-column justify-content-center align-items-center"
               data-filter=".accessories"
             >
-              accessories
+              Accessories
             </li>
             <li
               className="grid_sorting_button button d-flex flex-column justify-content-center align-items-center"
               data-filter=".men"
             >
-              men's
+              Men
             </li>
           </ul>
         </div>

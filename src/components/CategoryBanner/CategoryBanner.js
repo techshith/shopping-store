@@ -1,7 +1,5 @@
 /*
- ** Author: Santosh Kumar Dash
- ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Author: Veekshith
  */
 
 import React from "react";
@@ -23,7 +21,7 @@ function CategoryBanner(props) {
               data-aos="fade-right"
             >
               <div className="banner_category">
-                <a href="categories.html">women's</a>
+                <a href="categories.html">Women</a>
               </div>
             </div>
           </div>
@@ -36,7 +34,7 @@ function CategoryBanner(props) {
               data-aos="fade-up"
             >
               <div className="banner_category">
-                <a href="categories.html">accessories's</a>
+                <a href="categories.html">Accessories</a>
               </div>
             </div>
           </div>
@@ -49,7 +47,7 @@ function CategoryBanner(props) {
               data-aos="fade-left"
             >
               <div className="banner_category">
-                <a href="categories.html">men's</a>
+                <a href="categories.html">Men</a>
               </div>
             </div>
           </div>

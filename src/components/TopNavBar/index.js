@@ -1,7 +1,5 @@
 /*
- ** Author: Santosh Kumar Dash
- ** Author URL: http://santoshdash.epizy.com/
- ** Github URL: https://github.com/quintuslabs/fashion-cube
+ ** Author: Veekshith
  */
 
 import React, { Component } from "react";
@@ -40,7 +38,7 @@ class TopNavBar extends Component {
           <div className="row">
             <div className="col-md-6">
               <div className="top_nav_left">
-                free shipping on all u.s orders over $50
+                Free Shipping on all U.S orders over $50
               </div>
             </div>
             <div className="col-md-6 text-right">
@@ -53,16 +51,16 @@ class TopNavBar extends Component {
                     </a>
                     <ul className="currency_selection">
                       <li>
-                        <a href="#">cad</a>
+                        <a href="#">CAD</a>
                       </li>
                       <li>
-                        <a href="#">aud</a>
+                        <a href="#">AUD</a>
                       </li>
                       <li>
-                        <a href="#">eur</a>
+                        <a href="#">EUR</a>
                       </li>
                       <li>
-                        <a href="#">gbp</a>
+                        <a href="#">GBP</a>
                       </li>
                     </ul>
                   </li>
