@@ -21,7 +21,7 @@ Tech stack: Reactjs, Redux, Axios, Sass, react-bootstrap
 - Cart
 - Login / Register
 
-# Screenshots
+## Screenshots
 
 <img src="screen/Screenshot1.png">
 <img src="screen/Screenshot2.png">
