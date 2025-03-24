@@ -1,8 +1,8 @@
-# Fashion Cube-Ecommerce Application
+# Shopping Application
 
-#General Info
+# General Info
 
-front-end: Reactjs, Redux, Axios, Sass, react-bootstrap
+Tech stack: Reactjs, Redux, Axios, Sass, react-bootstrap
 
 ## This project is created using:
 
@@ -21,7 +21,7 @@ front-end: Reactjs, Redux, Axios, Sass, react-bootstrap
 - Cart
 - Login / Register
 
-# ScreenShot
+# Screenshots
 
 <img src="screen/Screenshot1.png">
 <img src="screen/Screenshot2.png">
