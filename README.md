@@ -4,8 +4,6 @@
 
 front-end: Reactjs, Redux, Axios, Sass, react-bootstrap
 
-[Live Demo](https://quintuslabs.github.io/fashion-cube)
-
 ## This project is created using:
 
 - [x] Monorepo
@@ -25,9 +23,7 @@ front-end: Reactjs, Redux, Axios, Sass, react-bootstrap
 
 # ScreenShot
 
-<img src="screen/screen1.png">
-<img src="screen/screen2.png">
-<img src="screen/screen3.png">
-<img src="screen/screen4.png">
-<img src="screen/screen5.png">
-<img src="screen/screen6.png">
+<img src="screen/screenshot1.png">
+<img src="screen/screenshot2.png">
+<img src="screen/screenshot3.png">
+<img src="screen/screenshot4.png">
